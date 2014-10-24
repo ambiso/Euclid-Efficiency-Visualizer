@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1414183954 source:e:\programmierung\euclideff\hsvtorgb.cpp
+
+1414183911 source:e:\programmierung\euclideff\main.cpp
+	<iostream>
+	"lodepng.cpp"
+	<stdlib.h>
+	<vector>
+	<math.h>
+	"HSVtoRGB.cpp"
+
+1410887471 e:\programmierung\euclideff\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1414171936 e:\programmierung\euclideff\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1414183954 e:\programmierung\euclideff\hsvtorgb.cpp
+
