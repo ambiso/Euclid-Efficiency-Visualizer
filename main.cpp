@@ -7,8 +7,9 @@
 
 using namespace std;
 
-int ggTC(int a, int b)
+int gcd(int a, int b)
 {
+	//NEWER MOD ALG
     int c = 0;
     while(a%b != 0)
     {
@@ -18,6 +19,22 @@ int ggTC(int a, int b)
         c++;
     }
     return c;
+    /*OLDER ALGORITHM
+    int c = 0;
+    if(a == 0)
+		return 0;
+	else
+	{
+		while(b != 0)
+		{
+			if(a > b)
+				a -= b;
+			else
+				b -= a;
+			c++;
+		}
+	}
+	return c;*/
 }
 void encode(const char* filename, std::vector<unsigned char>& image, unsigned width, unsigned height)
 {
@@ -51,7 +68,7 @@ int main(int argc, char* argv[])
     {
         for(int j = 1; j < max; j++)
         {
-            steps[i+max*j] = ggTC(i,j);
+            steps[i+max*j] = gcd(i,j);
         }
     }
 
